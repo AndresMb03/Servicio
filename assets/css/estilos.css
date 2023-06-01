@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fondo{
+    min-height: 500vh;
+}
+.fondo_menu{
+    background-color: #212529;
+}
+.boton{
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: .2s;
+}
+.boton_panel{
+    color: rgb(0, 0, 0);
+    background-color: rgb(43, 192, 225);
+    margin-left: 200px;
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: .2s;
+
+}
+.boton:hover{
+    border: 1px solid gray;
+    color: gray;
+}
+.fondo-login{
+    background-color: rgba(255, 255, 255, 0.938);
+    min-height: 100vh;
+    padding-top: 50px;
+}
+.login{
+    color: white;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgb(48, 0, 138);
+    margin-bottom: 40px;
+    
+}
+.icon, .titulo{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.titulo{
+    margin-bottom: 20px;
+    font-size: 20px
+}
+.letra{
+    text-align: center;
+}
+
+.box-eye{
+    position: relative;
+}
+.box-eye button{
+    border: none;
+    position: absolute;
+}
+.changePassword{
+    position: absolute;
+    top: 12px;
+    left: 270px;
+    color: rgb(51, 47, 47);
+    cursor: pointer;
+}
+.btn_doc{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 222, 225);
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: .2s;
+
+}
+
